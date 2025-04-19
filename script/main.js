@@ -27,9 +27,17 @@ const animationTimeline = () => {
         .split("")
         .join("</span><span>")}</span>`;
 
-    hbd.innerHTML = `<span>${hbd.innerHTML
-        .split("")
-        .join("</span><span>")}</span>`;
+        const hbdText = hbd.textContent.trim(); // "Happy Birthday!"
+    const chars = hbdText.split("").map(char => {
+      if (char === " ") {
+        return `<span style="display:inline-block; width:15px;"></span>`;
+      } else {
+        return `<span>${char}</span>`;
+      }
+    });
+    hbd.innerHTML = chars.join("");
+
+
 
     const ideaTextTrans = {
         opacity: 0,
