@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <title>Happy Birthday :)</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <!-- My Style -->
+  <link rel="stylesheet" href="./style/main.css" />
+<link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+ <style>
+   .rocky {
+     font-family: 'Indie Flower', cursive;
+     font-size: 100px;
+   }
+ </style>
+</head>
+<canvas id="confetti-canvas"></canvas>
+
+<body>
+
+    <audio id="bg-audio" class="song" loop autoplay>
+      <source src="./music/hbd.mp3">
+</source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <div class="container">
+        <div class="one">
+            <h1 class="one" >
+              <span class="rocky">Hi Manusha! :) 💞</span>
+            </h1>
+            <p class="two" id="greetingText" style="font-family: 'Comic Sans MS', cursive, sans-serif; font-size: 24px;">
+              or should I call Mine/Dululu/Babe/Kamwali/MVP ❤️!
+            </p>
+        </div>
+
+        <div class="three">
+            <p>You know one thing ??? </p>
+            <p>Its your Birthday 🎉</p>
+        </div>
+
+        <div class="four">
+            <div class="text-box">
+                <p class="hbd-chatbox">
+                Happy birthday to youu!! blah blah I ❤️ you......
+                </p>
+                <p class="fake-btn">Send</p>
+            </div>
+        </div>
+
+        <div class="five">
+            <p class="idea-1">That's what I was going to do. but fir laga wait my special girl deserve something special so ...</p>
+            <p class="idea-2">So here are some things i wanted to say ...</p>
+            <p class="idea-3">
+                I'll always be there for you irrespective of anything..(bore nahi hoga pakka 🤞🏼)  <br>
+                <strong> I will always come back to you ! 💓 </strong>
+            </p>
+            <p class="idea-4">I always felt something was missing in me… but now I know—I’ve found the missing piece of my puzzle, and it’s YOU! </p>
+            <p class="idea-5">
+                And last thing I love you ♾️ ❤️
+                <span>:)</span>
+
+            </p>
+            <p class="idea-6">
+                <span>M</span>
+                <span>Y</span>
+                <span>B</span>
+                <span>A</span>
+                <span>B</span>
+                <span>E</span>
+
+            </p>
+
+        </div>
+
+        <div class="six">
+            <img src="./img/mine.JPG" alt="profile" class="profile-picture" id="imagePath"/>
+            <img src="img/hat.svg" alt="hat" class="hat" />
+            <div class="wish">
+                <h3 class="wish-hbd">Happy Birthday!</h3>
+                <h5 id="wishText"> Always Keep that beautiful smile! ;)</h5>
+            </div>
+        </div>
+      </div>
+
+<div class="corner-card top-left image-card disabled">
+  <div class="image-inner">
+    <div class="image-front"><img src="./img/smile.PNG" alt="Front 1"></div>
+    <div class="image-back"><p>Thanks for being there i love looking at your face i know its not that beautiful but i love it :P</p></div>
+  </div>
+</div>
+<div class="corner-card top-right image-card disabled">
+  <div class="image-inner">
+    <div class="image-front"><img src="./img/mine1.PNG" alt="Front 2"></div>
+    <div class="image-back"><p> I know your self independent strong women but know that i'm always there for you :) </p></div>
+  </div>
+</div>
+<div class="corner-card bottom-left image-card disabled">
+  <div class="image-inner">
+    <div class="image-front"><img src="./img/lp_image.png" alt="Front 3"></div>
+    <div class="image-back"><p> I love looking at your teeths so please keep smiling :) </p></div>
+  </div>
+</div>
+<div class="corner-card bottom-right image-card disabled">
+  <div class="image-inner">
+    <div class="image-front"><img src="./img/smile1.JPG" alt="Front 4"></div>
+    <div class="image-back"><p>Don’t sell yourself short—you managed to land me, after all 😏❤️</p></div>
+  </div>
+
+</div>
+<audio id="card1-audio" src="./music/soniyo.mp3"></audio>
+<audio id="card2-audio" src="./music/maan.mp3"></audio>
+<audio id="card3-audio" src="./music/mushkil.mp3"></audio>
+<audio id="card4-audio" src="music/tu.mp3"></audio>
+
+<div class="clock-container">
+  <div>You owe me a hug in : </div>
+  <div class="time-part" id="clock-days">00</div> d :
+  <div class="time-part" id="clock-hours">00</div> h :
+  <div class="time-part" id="clock-minutes">00</div> m :
+  <div class="time-part" id="clock-seconds">00</div> s
+
+</div>
+  <div class="yours"> ~~Your Vikram ❤️</div>
+
+
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="application/javascript" src="./script/main.js"></script>
+
+</html>
